@@ -1,0 +1,42 @@
+body {
+    background: gray;
+}
+
+table {
+    /* background: url(img/jodio.png); */
+    border-collapse: collapse;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.index {
+    margin: 25px;
+    text-decoration: none;
+}
+
+.link {
+    color: green;
+}
+
+#tabel-siswa{
+    font-size: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
